@@ -1,0 +1,32 @@
+/* pc */
+@media (min-width: 1024px) {
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* mobile */
+@media (max-width: 740px) {
+    #nav > li {
+        display: block;
+    }
+
+    #header .logo-header {
+        display: none;
+    }
+
+    #header .ti-menu {
+        color: #fff;
+    }
+
+    #header .mobile-menu-btn {
+        float: right;
+        padding: 15px 20px;
+    }
+
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+}
